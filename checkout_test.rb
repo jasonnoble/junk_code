@@ -124,7 +124,7 @@ class CheckoutTest < Test::Unit::TestCase
     store.add_product("a", "3", "1.20")
     store.add_product("b", "1", "0.30")
     store.add_product("c", "1", "5.00")
-    store.add_product("c", "6", "25.0")
+    store.add_product("c", "6", "25.00")
     return store
   end
   
