@@ -139,8 +139,8 @@ class CheckoutTest < Test::Unit::TestCase
     # Multiple discount levels
     store = Store.new
     store.add_product("a", "1", "0.30")
-    store.add_product("c", "10", "2.50")
-    store.add_product("d", "100", "10.00")
+    store.add_product("a", "10", "2.50")
+    store.add_product("a", "100", "10.00")
     store.add_product("b", "1", "0.15")
     return store
   end
